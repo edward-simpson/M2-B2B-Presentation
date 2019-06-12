@@ -100,13 +100,13 @@ Allows buyer to **<span style="color: #ff9696">generate orders</span>** based on
 }
 
 @-webkit-keyframes spin {
-  0% {-webkit-transform: rotateX(-20deg) rotateY(20deg);}
-  100% {-webkit-transform: rotateX(-20deg) rotateY(740deg);}
+  0% {-webkit-transform: rotateX(740deg) rotateY(20deg) rotateZ(20deg);}
+  100% {-webkit-transform: rotateX(20deg) rotateY(740deg) rotateZ(740deg);}
 }
 
 @keyframes spin {
-  0% {-webkit-transform: rotateX(-20deg) rotateY(20deg);}
-  100% {-webkit-transform: rotateX(-20deg) rotateY(740deg);}
+  0% {-webkit-transform: rotateX(740deg) rotateY(20deg) rotateZ(20deg);}
+  100% {-webkit-transform: rotateX(20deg) rotateY(740deg) rotateZ(740deg);}
 }
 </style>
 
