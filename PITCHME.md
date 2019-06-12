@@ -35,13 +35,13 @@ Makes up the base module, provides some branding elements
 #### Company
 
 * Company
-Allows seller to **create a company account**, and **assign members of the company (*customer accounts*)** to company account
+Allows seller to **<span style="color: #ff9696">create a company account</span>**, and **<span style="color: #ff9696">assign members of the company (*customer accounts*)</span>** to company account
 
 * CompanyCredit
-**New payment method** akin to store credit
+**<span style="color: #ff9696">New payment method</span>** akin to store credit
 
 * CompanyPayment
-Allows specific **payment methods** to be **enabled/disabled** **PER** B2B company
+Allows specific **<span style="color: #ff9696">payment methods</span>** to be **<span style="color: #ff9696">enabled/disabled</span>** **<span style="color: #ff9696">PER</span>** B2B company
 
 +++
 
@@ -53,8 +53,8 @@ Allows specific **payment methods** to be **enabled/disabled** **PER** B2B compa
 * GiftCardSharedCatalog
 * GroupedSharedCatalog
 
-Defines the **visibility** of **products and prices** in the **catalog** and **B2B Quotes**
-for **different company accounts**
+Defines the **<span style="color: #ff9696">visibility</span>** of **<span style="color: #ff9696">products and prices</span>** in the **<span style="color: #ff9696">catalog</span>** and **<span style="color: #ff9696">B2B Quotes**
+for **<span style="color: #ff9696">different company accounts**
 
 
 +++
@@ -67,7 +67,7 @@ for **different company accounts**
 * ConfigurableNegotiableQuote
 * GiftCardNegotiableQuote
 
-Allows buyer and seller to **generate a quote**, and **negotiate product and/or shipping prices** before order gets placed
+Allows buyer and seller to **<span style="color: #ff9696">generate a quote</span>**, and **<span style="color: #ff9696">negotiate product and/or shipping prices</span>** before order gets placed
 
 +++
 
@@ -78,20 +78,37 @@ Allows buyer and seller to **generate a quote**, and **negotiate product and/or 
 * ConfigurableRequisitionList
 * GiftCardRequisitionList
 
-Allows buyer to **create multiple lists of products** (a-la wishlist), to use in order placement
+Allows buyer to **<span style="color: #ff9696">create multiple lists of products</span>** (a-la wishlist), to use in order placement
 
 +++
 
 #### Quick Order
 * QuickOrder
 
-Allows buyer to **generate orders** based on either **entering SKU**, or **uploading SKU CSV file**
+Allows buyer to **<span style="color: #ff9696">generate orders</span>** based on either **<span style="color: #ff9696">entering SKU</span>**, or **<span style="color: #ff9696">uploading SKU CSV file</span>**
 
 ---
 
 
 # FIN
 
+<style>
+#fin {
+    -webkit-transform-style: preserve-3d;
+    -webkit-animation: spin 3s infinite ease-out;
+    animation: spin 3s infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {-webkit-transform: rotateX(-20deg) rotateY(20deg);}
+  100% {-webkit-transform: rotateX(-20deg) rotateY(740deg);}
+}
+
+@keyframes spin {
+  0% {-webkit-transform: rotateX(-20deg) rotateY(20deg);}
+  100% {-webkit-transform: rotateX(-20deg) rotateY(740deg);}
+}
+</style>
 
 ---
 
